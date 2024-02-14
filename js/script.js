@@ -1,8 +1,8 @@
 var button = document.querySelector(".show-cat");
-console.log(button);
+console.log("It's working.");
 
 var cat = document.querySelector(".cat");
 
 button.addEventListener("click", function () {
-    button.InnerText = "It's working."
+    cat.classList.add("show")
 })
